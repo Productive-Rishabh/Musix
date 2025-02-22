@@ -1,11 +1,13 @@
 # Lyrics Finder
+import pyttsx3
+
 print("List of songs\n","\n Love me like you do\n","Do din ki zindagi\n"
       ,"Mat kar maya Ko ahankar\n","Blank space\n")
 
 x=input("Enter song Name: ")
 
 if x==("Love me like you do"):
-    print("You're the light, you're the night\nYoure the color of my blood\nYou're the cure, you're the pain\n"
+    speaker.say("You're the light, you're the night\nYoure the color of my blood\nYou're the cure, you're the pain\n"
     "You're the only thing I wanna touch\n"
     "Never knew that it could mean so much, so much\n"
     "You're the fear, I don't care\n"
@@ -45,7 +47,7 @@ if x==("Love me like you do"):
     
     
 if x==("Do din ki zindagi"):
-    print("iss jagat saraye Mai musafir rehna do din ka\n"
+    speaker.say("iss jagat saraye Mai musafir rehna do din ka\n"
     "Qu vritha Kare guman murak iss dhan aur joban ka\n"
     "Qu vritha Kare guman murak iss dhan aur joban ka\n"
     "Na he bharosa palka na he bharosa palka yu he\n"
@@ -79,7 +81,7 @@ if x==("Do din ki zindagi"):
     
     
 if x==("Mat kar maya ko ahankar"):
-    print("मत कर माया को अहंकार\n"
+    speaker.say("मत कर माया को अहंकार\n"
 
        " मत कर काया को अभिमान\n"
         
@@ -231,7 +233,7 @@ if x==("Mat kar maya ko ahankar"):
     )
     
 if x==("Blank space"):
-    print("Nice to meet you, where you been?\n"
+    speaker.say("Nice to meet you, where you been?\n"
     "I could show you incredible things\n"
     "Magic, madness, heaven, sin\n"
     "Saw you there and I thought\n"
@@ -313,6 +315,4 @@ if x==("Blank space"):
     "They'll tell you I'm insane\n"
     "But I've got a blank space, baby\n"
     "And I'll write your name\n")
-    
-    
-Quit=input("enter any key to exit")
+      
